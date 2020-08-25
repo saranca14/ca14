@@ -13,7 +13,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t ca14app:latest
+      - docker build -t ca14app:latest .
       - docker tag ca14app:latest $REPOSITORY_URI:latest
   post_build:
     commands:
