@@ -5,7 +5,7 @@
 <h1>My first PHP page</h1>
 
 <?php
-echo "Hello World! This is deployed into fargate cluster";
+echo "Hello, Welcome to serverless world";
 ?>
 
 </body>
